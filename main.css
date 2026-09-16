@@ -1,5 +1,53 @@
-img {
-    width: 250px;
-    height: auto;
-    object-position: 40% 100%;
+
+body {
+    border-left: 20px solid darkgreen;
+    border-right: 20px solid darkgreen;
+    margin: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
 }
+.left-bar,
+.right-bar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 5%;
+    background-color: darkgreen;
+    z-index: 1000;
+}
+
+.left-bar {
+    left: 0;
+}
+
+.right-bar {
+    right: 0;
+}
+
+img {
+    width: 350px;
+    height: auto;
+    position: relative;
+    left: 1000px;
+    top: -20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-top: 5px solid darkgreen;
+}
+
+ footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+     box-sizing: border-box;
+ }
