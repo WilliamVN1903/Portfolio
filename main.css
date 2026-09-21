@@ -1,4 +1,7 @@
-
+h1 {
+    text-align: center;
+    color:white;
+}
 body {
     border-left: 20px solid darkgreen;
     border-right: 20px solid darkgreen;
@@ -11,7 +14,7 @@ body {
     position: fixed;
     top: 0;
     bottom: 0;
-    width: 5%;
+    width: 1%;
     background-color: darkgreen;
     z-index: 1000;
 }
@@ -40,6 +43,30 @@ footer {
     border-top: 5px solid darkgreen;
 }
 
+.box {
+    position:absolute;
+    width: 25%;
+    padding: 2%;
+    background-color: black;
+    color: white;
+    border: 0.3vw solid darkgreen;
+    box-sizing: border-box;
+}
+
+.box1 {
+    left: 20%;
+    top: 15%;
+}
+
+.box2 {
+    left: 5%;
+    top: 55%;
+}
+
+.box3 {
+    left: 35%;
+    top: 55%;
+}
  footer {
     position: fixed;
     left: 0;
