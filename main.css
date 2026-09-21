@@ -2,6 +2,60 @@ h1 {
     text-align: center;
     color:white;
 }
+
+header {
+    background-color: black;
+    color: white;
+    padding: 2%;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.nav-dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 2%;
+}
+
+.nav-dropdown button {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 2% 5%;
+    font-size: 100%;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: black;
+    width: 150%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid white;
+    z-index: 1000;
+}
+
+.dropdown-menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8%;
+}
+
+.dropdown-menu a:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+.nav-dropdown:hover .dropdown-menu {
+    display: block;
+}
 body {
     border-left: 20px solid darkgreen;
     border-right: 20px solid darkgreen;
@@ -28,11 +82,13 @@ body {
 }
 
 img {
-    width: 350px;
+    width: 25%;
     height: auto;
     position: relative;
-    left: 1000px;
-    top: -20px;
+    left: 70%;
+    top: -2%;
+    border: 0.6vw solid darkgreen;
+    border-radius: 5%;
 }
 
 footer {
@@ -54,8 +110,8 @@ footer {
 }
 
 .box1 {
-    left: 20%;
-    top: 15%;
+    left: 35%;
+    top: 20%;
 }
 
 .box2 {
@@ -67,6 +123,12 @@ footer {
     left: 35%;
     top: 55%;
 }
+.box4 {
+    left: 5%;
+    top: 20%;
+}
+
+
  footer {
     position: fixed;
     left: 0;
